@@ -1,8 +1,12 @@
-# React + Vite
+# PlayList Organizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PlaylistOrganizer is a web application designed to enhance your learning experience by organizing YouTube playlists into structured courses. This app was created to help users avoid distractions from YouTube ads and suggested videos, providing a focused and streamlined learning environment.
 
-Currently, two official plugins are available:
+## Key Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ad-Free Viewing: Watch YouTube videos without interruptions from ads.
+Course Organization: Transform your playlists into well-organized courses.
+Notes and Annotations: Take and save notes directly within the app for future reference.
+
+With PlaylistOrganizer, you can maintain your focus and efficiently manage your learning materials, making it the ideal tool for students and lifelong learners.
+
