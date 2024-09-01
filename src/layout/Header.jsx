@@ -11,7 +11,7 @@ export const Header = (props) => {
         <div className="flex flex-row justify-between px-4 lg:px-20 py-4 bg-gradient-to-r from-dark to-secondary via-primary">
             <Link to="/">
                 <h1 className="hidden md:flex text-[#91a380] text-left text-3xl font-bold ">
-                    <span className="text-[#91a380]">P</span>ORGANISER
+                    <span className="text-[#91a380]">P-</span>ORGANIZER
                 </h1>
                 <h1 className="md:hidden text-[#91a380] text-left text-3xl font-bold ">
                     <span className="text-[#91a380]">P</span>O

@@ -8,7 +8,7 @@ export const Footer = () => {
             className="flex flex-col gap-8 pb-6 md:pb-10 justify-between px-8 md:px-20 py-4 bg-gradient-to-r from-dark to-secondary via-primary">
             <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center">
                 <h1 className="text-[#91a380] text-4xl font-bold mb-4 lg:mb-0">
-                    <span className="text-[#91a380]">P</span>ORGANISER
+                    <span className="text-[#91a380]">P-</span>ORGANIZER
                 </h1>
                 <div className="flex gap-4 text-white text-xl">
                     <a href="#" aria-label="Facebook">
