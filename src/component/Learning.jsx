@@ -23,25 +23,26 @@ const Learning = () => {
 
     const options = {
       method: 'GET',
-      url: 'https://youtube-v31.p.rapidapi.com/playlists',
+      url: 'https://yt-api.p.rapidapi.com/playlist',
       params: {
         id: playlistID,
         part: 'snippet'
       },
       headers: {
-        'X-RapidAPI-Key': import.meta.env.VITE_RAPID_API_KEY,
-        'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
+        'x-rapidapi-key': import.meta.env.VITE_RAPID_API_KEY,
+        'x-rapidapi-host': 'yt-api.p.rapidapi.com'
       }
     };
 
     axios
       .request(options)
       .then(function (response) {
+        // console.log(response.data.data)
         const newCourse = {
           id: playlistID,
-          name: response.data.items[0].snippet.title,
-          channel: response.data.items[0].snippet.channelTitle,
-          thumbnail: response.data.items[0].snippet.thumbnails.medium.url,
+          name: response.data.data[0].title,
+          channel: response.data.data[0].channelTitle,
+          thumbnail: response.data.data[0].thumbnail[0].url,
           progress: 0,
         };
         const updatedCourses = [...courses, newCourse];
